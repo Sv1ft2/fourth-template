@@ -1,0 +1,1624 @@
+/* container */
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*=============================================
+header styles start
+=============================================*/
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 19px 0;
+}
+
+.header__menu {
+  margin: auto 0;
+}
+
+.header__list {
+  display: flex;
+  /* list-style: none; */
+}
+
+.header__item {
+  margin: 0 20px;
+}
+.header__item:last-child {
+  margin-right: 0;
+}
+
+.header__link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: #c7bbb3;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header__logo {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 35px;
+  color: #2f2e2d;
+}
+/*=============================================
+header styles end
+=============================================*/
+/* main__wrapper */
+.main__wrapper {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+/*=============================================
+intro styles start
+=============================================*/
+.intro {
+  background-color: #ffcbcb;
+}
+
+.intro__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 136px 0;
+}
+
+.intro__logo {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 78px;
+  line-height: 104px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  margin-bottom: 8.25px;
+}
+
+.intro__subtitle {
+  font-family: Playfair Display;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 37.62px;
+}
+/* btn */
+.btn {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  border: hidden;
+}
+
+.intro__btn-wrapper {
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.intro__btn {
+  padding: 11px 23px 11px 28px;
+  background-color: inherit;
+  border: 1px solid #ffffff;
+  color: white;
+}
+/*=============================================
+intro styles end
+=============================================*/
+/*=============================================
+our-qualities styles end
+=============================================*/
+.our-qualities {
+  display: flex;
+  justify-content: space-around;
+  padding: 57px 0;
+  align-items: center;
+}
+
+.our-qualities__item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 33.33%;
+}
+
+.our-qualities__img-wrapper {
+  width: 76px;
+  height: 76px;
+  background: #41413d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.our-qualities__img {
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  border: 2px solid #c7bbb3;
+  border-radius: 50%;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.our-qualities__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #42413e;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.our-qualities__link {
+  font-family: Lora;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #c7bbb3;
+}
+
+.MUCH-GREATER-THAN {
+  font-style: normal;
+}
+/*=============================================
+our-qualities styles end
+=============================================*/
+/*=============================================
+special-offers styles start
+=============================================*/
+.special-offers {
+  width: 100%;
+  background-color: #efefed;
+}
+
+.special-offers__wrapper {
+  padding-top: 62px;
+  padding-bottom: 72px;
+  background-color: inherit;
+}
+
+.special-offers__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 29px;
+  border-bottom: 1px solid #fff;
+  align-items: flex-end;
+  margin-bottom: 41px;
+}
+
+.special-offers__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #4d4b4b;
+  text-transform: capitalize;
+}
+
+.special-offers__link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  letter-spacing: 0.5px;
+  color: #c7bbb3;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.special-offers__items-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.special-offers__item {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.special-offers__item_Leather-Belts {
+  width: 66.66%;
+  background: #41413d;
+  padding-top: 20.6px;
+  padding-left: 34.5px;
+  padding-bottom: 40px;
+}
+
+.special-offers__item_New-Arrivals {
+  width: 33.33%;
+  background: #c7bbb2;
+  padding: 10px;
+}
+.special-offers__item-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.special-offers__item-wrapper_New-Arrivals {
+  border: 1px solid #ffffff;
+  padding-top: 26px;
+  padding-bottom: 31px;
+}
+
+.special-offers__item-wrapper_Durable-Quality-Handbags {
+  border: 1px solid #c7bbb2;
+  padding-top: 35px;
+  padding-bottom: 47px;
+}
+
+.special-offers__item_Durable-Quality-Handbags {
+  width: 50%;
+  padding: 10px;
+  background: #ffffff;
+}
+
+.special-offers__item-title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 39px;
+  line-height: 52px;
+  color: #ffffff;
+}
+
+.special-offers__item-title_Leather-Belts-margin {
+  margin-bottom: 18px;
+}
+
+.special-offers__item-subtitle {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px auto;
+}
+
+.special-offers__item-subtitle_Durable-Quality-Handbags {
+  color: #828282;
+}
+
+.special-offers__item_text-left {
+  text-align: left;
+}
+
+.special-offers__item-subtitle-text_Leather-Belts {
+  text-align: left;
+  max-width: 174px;
+  padding-bottom: 17px;
+}
+
+.special-offers__price-wrapper {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.special-offers__current-price {
+  font-family: PlayfairDisplay;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  padding-right: 5px;
+  min-width: 64px;
+  min-height: 32px;
+}
+
+.special-offers__previous-price {
+  font-family: PlayfairDisplay;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration-line: line-through;
+  color: #c7bbb3;
+  min-width: 54px;
+  min-height: 23px;
+  text-decoration: line-through;
+}
+
+.special-offers__item-title_New-Arrivals-margin-bot {
+  margin-bottom: 24px;
+}
+
+.special-offers__item-subtitle_New-Arrivals {
+  max-width: 126.5px;
+  margin-bottom: 19px;
+}
+
+.special-offers__item-title_Durable-Quality-Handbags {
+  margin-bottom: 27px;
+  color: #4d4b4b;
+}
+
+.special-offers__item-subtitle_Durable-Quality-Handbags {
+  max-width: 222px;
+  margin-bottom: 21px;
+}
+
+.special-offers__btn_Leather-Belts {
+  padding: 8.5px 16px;
+  background: #c7bbb3;
+  color: #fff;
+}
+
+.special-offers__btn_New-Arrivals {
+  padding: 8.5px 12.5px;
+  background: #fff;
+  color: #c7bbb3;
+}
+
+.special-offers__btn_Durable-Quality-Handbags {
+  padding: 8.5px 13px;
+  background: #c7bbb3;
+  color: #fff;
+}
+
+/*=============================================
+special-offers styles end
+=============================================*/
+/*=============================================
+dear-customer styles start
+=============================================*/
+.dear-customer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 34px 43px 36px 41px;
+  background: #41413d;
+  box-sizing: border-box;
+  margin-top: 66px;
+}
+
+.dear-customer__top-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.dear-customer__message {
+  max-width: 316px;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.dear-customer__circle {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  background: #ffcbcb;
+}
+
+.dear-customer__rectangle {
+  width: 118px;
+  height: 47px;
+  background: #ffcccc;
+  margin-bottom: 16.7px;
+}
+
+.dear-customer__author {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #c7bbb3;
+}
+
+.dear-customer__bold-text {
+  font-weight: bold;
+}
+/*=============================================
+dear-customer styles end
+=============================================*/
+/*=============================================
+new-collection styles start
+=============================================*/
+.new-collection {
+  margin-top: 68.8px;
+}
+
+.new-collection__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 18.1px;
+  border-bottom: 1px solid #f7f9fb;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+.new-collection__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #4d4b4b;
+  text-transform: capitalize;
+}
+
+.new-collection__link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  letter-spacing: 0.5px;
+  color: #c7bbb3;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.new-collection__items-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.new-collection__item-img-wrapper {
+  width: 186px;
+  height: 186px;
+  background: #efefed;
+  padding: 10px;
+  margin-bottom: 17px;
+  box-sizing: border-box;
+}
+
+.new-collection__item-img-border {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-collection__item-img-border:nth-child(3) {
+  border: hidden;
+}
+
+.new-collection__img:nth-child(1) {
+  width: 127px;
+  height: 110px;
+}
+
+.new-collection__img:nth-child(2) {
+  width: 128px;
+  height: 90px;
+}
+
+.new-collection__item-name {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  color: #42413e;
+  text-align: left;
+}
+
+.new-collection__buy-link {
+  text-decoration: none;
+}
+
+.new-collection__icon-wrapper {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #c7bbb3;
+  position: relative;
+  top: -6px;
+  border-radius: 50%;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.new-collection__buy-icon {
+  width: 15.4px;
+  height: 10.6px;
+}
+/*=============================================
+new-collection styles end
+=============================================*/
+/*=============================================
+banner-1 styles start
+=============================================*/
+.banner-1 {
+  width: 100%;
+  background-image: url(../img/banner-1-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 98px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-1__title {
+  min-width: 306px;
+  min-height: 60px;
+  margin-bottom: 36px;
+}
+
+.banner-1__title-text {
+  font-family: PlayfairDisplay;
+  font-size: 45px;
+  line-height: 53px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.banner-1__COLLECTION-wrapper {
+  padding: 7px;
+  box-sizing: border-box;
+  width: 137px;
+  height: 137px;
+  background: #c7bbb3;
+  border-radius: 50%;
+}
+
+.banner-1__COLLECTION-border {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.banner-1__COLLECTION-title {
+  margin: 0px -40px;
+  margin-bottom: 10px;
+  padding-top: 15px;
+}
+
+.banner-1__COLLECTION-text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15.1483px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.banner-1__COLLECTION-icon {
+  width: 25px;
+  height: 7px;
+}
+/*=============================================
+banner-1 styles end
+=============================================*/
+/*=============================================
+daily-offer styles start
+=============================================*/
+.daily-offer {
+  width: 100%;
+  background: #efefed;
+  padding: 76px 0px;
+}
+
+.daily-offer__wrapper {
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 11.5px 10px;
+}
+
+.daily-offer__border {
+  border: 1px solid #c7bbb3;
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.daily-offer__title {
+  font-family: PlayfairDisplay;
+  font-size: 45px;
+  line-height: 53px;
+  text-align: center;
+  color: white;
+  margin-bottom: 28px;
+}
+
+.daily-offer__title:hover {
+  color: #4d4b4b;
+}
+
+.daily-offer__img-wrapper {
+  width: 383px;
+  height: 307px;
+  background-image: url(../img/CLASSY-HANDBAG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 36px;
+}
+
+.daily-offer__description {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 28.3px;
+  align-items: flex-end;
+}
+
+.daily-offer__name {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 27px;
+  color: #42413e;
+  margin-right: 26.5px;
+}
+
+.daily-offer__price-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.daily-offer__current-price {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 31px;
+  line-height: 41px;
+  color: #4d4b4b;
+  margin-right: 8.3px;
+}
+
+.daily-offer__previous-price {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 27px;
+  text-decoration-line: line-through;
+  color: #c7bbb3;
+}
+
+/* dollar-symbol */
+.dollar-symbol {
+  font-family: "Cardo", serif;
+  font-style: normal;
+  font-size: 42px;
+}
+
+.daily-offer__collors {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+.daily-offer__collors-text {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #828282;
+  padding: 0px 2px;
+}
+
+.daily-offer__collor-item {
+  border-radius: 50%;
+  margin: 0px 11px;
+  width: 20px;
+  height: 20px;
+}
+
+.daily-offer__collor-item_white {
+  background: #f5f3f1;
+}
+
+.daily-offer__collor-item_pink {
+  background: #f7d7c7;
+}
+
+.daily-offer__collor-item_black {
+  background: #4d4d4d;
+}
+
+.daily-offer__btn-VIEW-MORE-DEALS {
+  padding: 8.6px 15px;
+  background: #c7bbb3;
+  color: #ffffff;
+  margin: 0 5.5px;
+}
+
+.daily-offer__btn-BUY-NOW {
+  padding: 8.5px 17px;
+  background: #4d4b4b;
+  color: #ffffff;
+  margin: 0 5.5px;
+}
+/*=============================================
+daily-offer styles end
+=============================================*/
+/*=============================================
+reasons-to-buy styles start
+=============================================*/
+.reasons-to-buy {
+  padding-bottom: 77px;
+  padding-top: 66px;
+}
+
+.reasons-to-buy__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 18.1px;
+  border-bottom: 1px solid #f7f9fb;
+  align-items: flex-end;
+  margin-bottom: 32px;
+}
+
+.reasons-to-buy__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #4d4b4b;
+  text-transform: capitalize;
+}
+
+.reasons-to-buy__link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  letter-spacing: 0.5px;
+  color: #c7bbb3;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.reasons-to-buy__items-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.reasons-to-buy__item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 33.33%;
+}
+
+.reasons-to-buy__img-wrapper {
+  width: 99px;
+  height: 99px;
+  background: #41413d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  box-sizing: border-box;
+  margin-bottom: 27px;
+}
+
+.reasons-to-buy__img {
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  border: 2px solid #c7bbb3;
+  border-radius: 50%;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.reasons-to-buy__item-title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.reasons-to-buy__item-title_first-item-width {
+  max-width: 121px;
+}
+
+.reasons-to-buy__item-title_second-item-width {
+  max-width: 146px;
+}
+
+.reasons-to-buy__item-title_third-item-width {
+  max-width: 157px;
+}
+
+.reasons-to-buy__item-title-text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #42413e;
+}
+
+.reasons-to-buy__item-subtitle {
+  min-width: 157px;
+  margin-bottom: 9px;
+}
+
+.reasons-to-buy__item-subtitle-text {
+  text-align: center;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #828282;
+}
+
+.reasons-to-buy__item-link {
+  font-family: Lora;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #c7bbb3;
+  text-decoration: none;
+}
+
+/*=============================================
+reasons-to-buy styles end
+=============================================*/
+/*=============================================
+banner-2 styles start
+=============================================*/
+.banner-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/banner-2-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 79px;
+  padding-bottom: 93px;
+}
+
+.banner-2__title {
+  margin-bottom: 27.8px;
+}
+
+.banner-2__title-text {
+  font-family: PlayfairDisplay;
+  font-size: 45px;
+  line-height: 53px;
+  text-align: center;
+  color: transparent;
+}
+
+.banner-2__title-text:hover {
+  color: white;
+}
+
+.banner-2__subtitle {
+  margin-bottom: 42px;
+}
+
+.banner-2__subtitle-text {
+  font-family: Playfair Display;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: white;
+}
+
+.banner-2__btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 15px 13px 17px;
+  background: #c7bbb3;
+}
+
+.banner-2__point-icon {
+  width: 11.02px;
+  height: 16.01px;
+  margin-right: 14px;
+}
+
+.banner-2__btn {
+  background-color: inherit;
+  color: white;
+}
+/*=============================================
+banner-2 styles end
+=============================================*/
+/*=============================================
+popular-products styles start
+=============================================*/
+.popular-products {
+  background: #efefed;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.popular-products__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 27px;
+  border-bottom: 1px solid #f7f9fb;
+  align-items: flex-end;
+  margin-bottom: 28px;
+}
+
+.popular-products__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #4d4b4b;
+  text-transform: capitalize;
+}
+
+.popular-products__link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  letter-spacing: 0.5px;
+  color: #c7bbb3;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.popular-products__items-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.popular-products__item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.popular-products__item-img {
+  min-width: 186px;
+  min-height: 201px;
+  background: #ffcbcb;
+}
+.popular-products__item-description {
+  padding: 22.5px 21.5px 25.5px 23px;
+  background: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.popular-products__item-name {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  color: #42413e;
+}
+
+.popular-products__buy-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-products__price-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.popular-products__current-price {
+  margin-right: 4.2px;
+}
+
+.popular-products__current-price-text {
+  font-family: PlayfairDisplay;
+  font-size: 21px;
+  line-height: 25px;
+  color: transparent;
+}
+
+.popular-products__current-price-text:hover {
+  color: #4d4b4b;
+}
+
+.popular-products__previous-price-text {
+  font-family: PlayfairDisplay;
+  font-size: 14px;
+  line-height: 16px;
+  color: transparent;
+  text-decoration-line: line-through;
+}
+
+.popular-products__previous-price-text:hover {
+  color: #c7bbb3;
+}
+
+.popular-products__buy-icon-wrapper {
+  width: 25px;
+  height: 25px;
+  background: #c7bbb3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.popular-products__buy-icon {
+  width: 12.8px;
+  height: 8.8px;
+}
+/*=============================================
+popular-products styles end
+=============================================*/
+/*=============================================
+shop-sale styles start
+=============================================*/
+.shop-sale {
+  margin-top: 69px;
+  background: #f8f9fb;
+  background-image: url(../img/shop-sale-bg.png);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 32px) center;
+}
+
+.shop-sale__intro {
+  width: 50%;
+  padding: 14px;
+  background: #c7bbb2;
+}
+
+.shop-sale__border {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  padding-top: 27px;
+  padding-bottom: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.shop-sale__title {
+  text-align: center;
+  max-width: 200px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.shop-sale__title-text {
+  font-size: 25px;
+  line-height: 33px;
+}
+
+.shop-sale__main-text {
+  font-size: 85px;
+  line-height: 113px;
+}
+
+.shop-sale__subtitle {
+  margin-bottom: 20px;
+}
+
+.shop-sale__subtitle-text {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 37px;
+}
+
+.shop-sale__btn {
+  padding: 8.5px 16.5px;
+  background: #41413d;
+  color: white;
+}
+/*=============================================
+shop-sale styles end
+=============================================*/
+/*=============================================
+testimonials styles start
+=============================================*/
+.testimonials {
+  padding-top: 71px;
+  padding-bottom: 50.5px;
+}
+
+.testimonials__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #f7f9fb;
+  align-items: flex-end;
+  margin-bottom: 46.5px;
+}
+
+.testimonials__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #4d4b4b;
+  text-transform: capitalize;
+}
+
+.testimonials__link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  letter-spacing: 0.5px;
+  color: #c7bbb3;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.testimonials__items-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.testimonials__item {
+  display: flex;
+  width: 50%;
+  box-sizing: border-box;
+  margin-bottom: 38px;
+}
+
+.testimonials__img {
+  width: 75px;
+  height: 75px;
+  background: #ffcbcb;
+  margin-right: 28.7px;
+  border-radius: 50%;
+}
+
+.testimonials__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Lora;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #828282;
+}
+
+.testimonials__quote {
+  display: inline-block;
+  max-width: 177px;
+}
+
+.testimonials__person-description {
+  font-weight: bold;
+  display: inline-block;
+  max-width: 177px;
+}
+
+.testimonials__person-job {
+  font-weight: normal;
+  color: grey;
+}
+/*=============================================
+banner-3 styles end
+=============================================*/
+/*=============================================
+banner-3 styles start
+=============================================*/
+.banner-3 {
+  background: #c7bbb3;
+}
+.banner-3__wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  background: #41413d;
+  padding-top: 49px;
+  padding-bottom: 70px;
+  padding-left: 150px;
+  box-sizing: border-box;
+}
+
+.banner-3__title {
+  max-width: 268px;
+  margin-bottom: 33px;
+}
+
+.banner-3__title-text {
+  font-family: PlayfairDisplay;
+  font-size: 45px;
+  line-height: 50px;
+  color: transparent;
+}
+
+.banner-3__title-text:hover {
+  color: #ffffff;
+}
+
+.banner-3__subtitle {
+  max-width: 253px;
+  margin-bottom: 31px;
+}
+
+.banner-3__subtitle-text {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.banner-3__btn {
+  background: #c7bbb3;
+  padding: 8.5px 21px;
+  color: #ffffff;
+}
+/*=============================================
+banner-3 styles end
+=============================================*/
+/*=============================================
+boutique-blog styles start
+=============================================*/
+.boutique-blog {
+  padding-top: 62px;
+  padding-bottom: 75px;
+  background-color: #efefed;
+}
+
+.boutique-blog__wrapper {
+}
+
+.boutique-blog__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 26px;
+  border-bottom: 1px solid #f7f9fb;
+  align-items: flex-end;
+  margin-bottom: 48px;
+}
+
+.boutique-blog__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #4d4b4b;
+  text-transform: capitalize;
+}
+
+.boutique-blog__link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  letter-spacing: 0.5px;
+  color: #c7bbb3;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.boutique-blog__items-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.boutique-blog__item {
+  box-sizing: border-box;
+}
+
+.boutique-blog__item-img {
+  min-width: 186px;
+  min-height: 185px;
+  background: #ffcbcb;
+}
+
+.boutique-blog__item-descrition {
+  padding: 19px 0 23px 21px;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.boutique-blog__item-title {
+  max-width: 148px;
+  margin-bottom: 13px;
+}
+
+.boutique-blog__item-title_max-width {
+  max-width: 131px;
+}
+
+.boutique-blog__item-title-text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  color: #42413e;
+}
+
+.boutique-blog__item-link {
+  font-family: Lora;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #c7bbb3;
+  text-decoration: none;
+}
+
+/*=============================================
+boutique-blog styles end
+=============================================*/
+/*=============================================
+our-brands styles start
+=============================================*/
+.our-brands {
+  padding-top: 57px;
+  padding-bottom: 68px;
+}
+
+.our-brands__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #f7f9fb;
+  align-items: flex-end;
+  margin-bottom: 52px;
+}
+
+.our-brands__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #4d4b4b;
+  text-transform: capitalize;
+}
+
+.our-brands__link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  letter-spacing: 0.5px;
+  color: #c7bbb3;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.our-brands__items-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.our-brands__item {
+  box-sizing: border-box;
+  background: #c7bbb3;
+  padding: 30px 0;
+  text-align: center;
+  margin-bottom: 20px;
+  min-width: 135px;
+}
+
+.our-brands__name-text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+/*=============================================
+our-brands styles end
+=============================================*/
+/*=============================================
+footer styles start
+=============================================*/
+.footer__about-us-wrapper {
+  background: #41413d;
+  width: 100%;
+}
+
+.footer__about-us {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding-left: 150px;
+  padding-top: 50.6px;
+  padding-bottom: 73.5px;
+  padding-right: 8.9px;
+}
+
+.footer__about-boutique-title {
+  margin-bottom: 20px;
+}
+
+.footer__title-text {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.footer__about-boutique-subtitle {
+  width: 221.7px;
+}
+
+.footer__about-boutique-subtitle-text {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.footer__info-title {
+  margin-bottom: 55px;
+}
+
+.footer__contact-title {
+  margin-bottom: 42px;
+}
+
+.footer__info-subtitle-text,
+.footer__contact-subtitle-text {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 25px;
+  text-decoration-line: underline;
+  color: #c7bbb3;
+}
+
+.footer__subfooter {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 33px;
+  padding-bottom: 39px;
+}
+
+.social-networks__list {
+  display: flex;
+  align-items: center;
+}
+
+.social-networks__item {
+  margin: 0px 4px;
+}
+
+.social-networks__item:nth-child(1) {
+  margin-left: 0;
+}
+
+.social-networks__img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #c7bbb3;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.footer__additional-information {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__rights {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #42413e;
+  margin-bottom: 6px;
+}
+
+.footer__usubscribe-link {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration-line: underline;
+  color: #c7bbb3;
+}
+/*=============================================
+footer styles end
+=============================================*/
