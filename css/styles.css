@@ -141,27 +141,34 @@ our-qualities styles end
   width: 33.33%;
 }
 
-.our-qualities__img-wrapper {
-  width: 76px;
-  height: 76px;
+/* item-img start */
+.item-img__wrapper {
   background: #41413d;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 15px;
-  padding: 5px;
   box-sizing: border-box;
 }
-
-.our-qualities__img {
+.item-img {
   width: 100%;
   height: 100%;
   background-color: inherit;
-  border: 2px solid #c7bbb3;
+  border: 2px solid rgba(199, 187, 179, 0.5);
   border-radius: 50%;
   z-index: 1;
   box-sizing: border-box;
+}
+/* item-img end */
+
+.our-qualities__img-wrapper {
+  width: 76px;
+  height: 76px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.our-qualities__img {
 }
 
 .our-qualities__title {
@@ -522,6 +529,15 @@ new-collection styles start
   text-align: left;
 }
 
+/* icon__wrapper */
+.icon__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #c7bbb3;
+  border-radius: 50%;
+}
+
 .new-collection__buy-link {
   text-decoration: none;
 }
@@ -529,13 +545,8 @@ new-collection styles start
 .new-collection__icon-wrapper {
   width: 30px;
   height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #c7bbb3;
   position: relative;
   top: -6px;
-  border-radius: 50%;
   margin-right: 0;
   margin-left: auto;
 }
@@ -801,24 +812,11 @@ reasons-to-buy styles start
 .reasons-to-buy__img-wrapper {
   width: 99px;
   height: 99px;
-  background: #41413d;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 7px;
-  box-sizing: border-box;
   margin-bottom: 27px;
 }
 
 .reasons-to-buy__img {
-  width: 100%;
-  height: 100%;
-  background-color: inherit;
-  border: 2px solid #c7bbb3;
-  border-radius: 50%;
-  z-index: 1;
-  box-sizing: border-box;
 }
 
 .reasons-to-buy__item-title {
@@ -1035,11 +1033,6 @@ popular-products styles start
 .popular-products__buy-icon-wrapper {
   width: 25px;
   height: 25px;
-  background: #c7bbb3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
 }
 
 .popular-products__buy-icon {
@@ -1434,13 +1427,8 @@ footer styles start
 }
 
 .social-networks__img-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #c7bbb3;
   width: 35px;
   height: 35px;
-  border-radius: 50%;
 }
 
 .footer__additional-information {
