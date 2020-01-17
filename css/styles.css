@@ -21,7 +21,6 @@ header styles start
 
 .header__list {
   display: flex;
-  /* list-style: none; */
 }
 
 .header__item {
@@ -206,17 +205,14 @@ special-offers styles start
   padding-bottom: 72px;
   background-color: inherit;
 }
-
-.special-offers__header {
+/* section-header start */
+.section-header {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 29px;
   border-bottom: 1px solid #fff;
   align-items: flex-end;
-  margin-bottom: 41px;
 }
-
-.special-offers__title {
+.section-header__title {
   font-family: Playfair Display;
   font-style: normal;
   font-weight: normal;
@@ -225,8 +221,7 @@ special-offers styles start
   color: #4d4b4b;
   text-transform: capitalize;
 }
-
-.special-offers__link {
+.section-header__link {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -237,6 +232,18 @@ special-offers styles start
   color: #c7bbb3;
   text-transform: uppercase;
   text-decoration: none;
+}
+/* section-header end */
+
+.special-offers__header {
+  padding-bottom: 29px;
+  margin-bottom: 41px;
+}
+
+.special-offers__title {
+}
+
+.special-offers__link {
 }
 
 .special-offers__items-wrapper {
@@ -460,35 +467,9 @@ new-collection styles start
 }
 
 .new-collection__header {
-  display: flex;
-  justify-content: space-between;
   padding-bottom: 18.1px;
-  border-bottom: 1px solid #f7f9fb;
-  align-items: flex-end;
   margin-bottom: 40px;
-}
-
-.new-collection__title {
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 32px;
-  color: #4d4b4b;
-  text-transform: capitalize;
-}
-
-.new-collection__link {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 14px;
-  text-align: right;
-  letter-spacing: 0.5px;
-  color: #c7bbb3;
-  text-transform: uppercase;
-  text-decoration: none;
+  border-bottom: 1px solid #f7f9fb;
 }
 
 .new-collection__items-wrapper {
@@ -798,35 +779,9 @@ reasons-to-buy styles start
 }
 
 .reasons-to-buy__header {
-  display: flex;
-  justify-content: space-between;
   padding-bottom: 18.1px;
-  border-bottom: 1px solid #f7f9fb;
-  align-items: flex-end;
   margin-bottom: 32px;
-}
-
-.reasons-to-buy__title {
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 32px;
-  color: #4d4b4b;
-  text-transform: capitalize;
-}
-
-.reasons-to-buy__link {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 14px;
-  text-align: right;
-  letter-spacing: 0.5px;
-  color: #c7bbb3;
-  text-transform: uppercase;
-  text-decoration: none;
+  border-bottom: 1px solid #f7f9fb;
 }
 
 .reasons-to-buy__items-wrapper {
@@ -999,35 +954,8 @@ popular-products styles start
 }
 
 .popular-products__header {
-  display: flex;
-  justify-content: space-between;
   padding-bottom: 27px;
-  border-bottom: 1px solid #f7f9fb;
-  align-items: flex-end;
   margin-bottom: 28px;
-}
-
-.popular-products__title {
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 32px;
-  color: #4d4b4b;
-  text-transform: capitalize;
-}
-
-.popular-products__link {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 14px;
-  text-align: right;
-  letter-spacing: 0.5px;
-  color: #c7bbb3;
-  text-transform: uppercase;
-  text-decoration: none;
 }
 
 .popular-products__items-wrapper {
@@ -1198,35 +1126,9 @@ testimonials styles start
 }
 
 .testimonials__header {
-  display: flex;
-  justify-content: space-between;
   padding-bottom: 25px;
-  border-bottom: 1px solid #f7f9fb;
-  align-items: flex-end;
   margin-bottom: 46.5px;
-}
-
-.testimonials__title {
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 32px;
-  color: #4d4b4b;
-  text-transform: capitalize;
-}
-
-.testimonials__link {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 14px;
-  text-align: right;
-  letter-spacing: 0.5px;
-  color: #c7bbb3;
-  text-transform: uppercase;
-  text-decoration: none;
+  border-bottom: 1px solid #f7f9fb;
 }
 
 .testimonials__items-wrapper {
@@ -1349,35 +1251,8 @@ boutique-blog styles start
 }
 
 .boutique-blog__header {
-  display: flex;
-  justify-content: space-between;
   padding-bottom: 26px;
-  border-bottom: 1px solid #f7f9fb;
-  align-items: flex-end;
   margin-bottom: 48px;
-}
-
-.boutique-blog__title {
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 32px;
-  color: #4d4b4b;
-  text-transform: capitalize;
-}
-
-.boutique-blog__link {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 14px;
-  text-align: right;
-  letter-spacing: 0.5px;
-  color: #c7bbb3;
-  text-transform: uppercase;
-  text-decoration: none;
 }
 
 .boutique-blog__items-wrapper {
@@ -1444,35 +1319,9 @@ our-brands styles start
 }
 
 .our-brands__header {
-  display: flex;
-  justify-content: space-between;
   padding-bottom: 25px;
-  border-bottom: 1px solid #f7f9fb;
-  align-items: flex-end;
   margin-bottom: 52px;
-}
-
-.our-brands__title {
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 32px;
-  color: #4d4b4b;
-  text-transform: capitalize;
-}
-
-.our-brands__link {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 14px;
-  text-align: right;
-  letter-spacing: 0.5px;
-  color: #c7bbb3;
-  text-transform: uppercase;
-  text-decoration: none;
+  border-bottom: 1px solid #f7f9fb;
 }
 
 .our-brands__items-wrapper {
