@@ -1317,10 +1317,25 @@ our-brands styles start
   border-bottom: 1px solid #f7f9fb;
 }
 
-.our-brands__items-wrapper {
+.our-brands__all-items-wrapper {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.our-brands__item-wrapper {
+  width: 25%;
+  padding: 0px 7.5px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.our-brands__item-wrapper:nth-child(1),
+.our-brands__item-wrapper:nth-child(5) {
+  padding-left: 0;
+}
+.our-brands__item-wrapper:nth-child(4),
+.our-brands__item-wrapper:nth-child(8) {
+  padding-right: 0;
 }
 
 .our-brands__item {
@@ -1328,8 +1343,7 @@ our-brands styles start
   background: #c7bbb3;
   padding: 30px 0;
   text-align: center;
-  margin-bottom: 20px;
-  min-width: 135px;
+  width: 100%;
 }
 
 .our-brands__name-text {
